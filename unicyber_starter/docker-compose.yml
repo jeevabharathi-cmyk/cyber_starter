@@ -11,8 +11,6 @@ services:
     ports: ["5432:5432"]
 
   redis:
-    image: redis:7
-    image: redis:9
     ports: ["6379:6379"]
 
   minio:
